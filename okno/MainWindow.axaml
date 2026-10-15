@@ -10,6 +10,7 @@
         Height="400"
         Background="#FFF9C4">
     <TextBlock Text="Warsztat"
+               FontSize="36"
                HorizontalAlignment="Center"
                VerticalAlignment="Center" />
 </Window>
