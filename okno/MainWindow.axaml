@@ -9,8 +9,12 @@
         Width="600"
         Height="400"
         Background="#FFF9C4">
-    <TextBlock Text="Warsztat"
-               FontSize="36"
-               HorizontalAlignment="Center"
-               VerticalAlignment="Center" />
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+        <TextBlock Text="Warsztat"
+                   FontSize="36"
+                   HorizontalAlignment="Center" />
+        <TextBlock Text="okno okno"
+                   HorizontalAlignment="Center" />
+    </StackPanel>
 </Window>
