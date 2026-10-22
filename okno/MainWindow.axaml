@@ -12,10 +12,16 @@
     <Panel>
         <StackPanel HorizontalAlignment="Center"
                     VerticalAlignment="Center">
-            <TextBlock Text="Warsztat"
-                       FontSize="36"
-                       FontWeight="Bold"
-                       HorizontalAlignment="Center" />
+            <Border BorderBrush="Black"
+                    BorderThickness="2"
+                    Padding="10,5"
+                    CornerRadius="4"
+                    HorizontalAlignment="Center">
+                <TextBlock Text="Warsztat"
+                           FontSize="36"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center" />
+            </Border>
             <TextBlock Text="okno okno"
                        Foreground="Blue"
                        FontStyle="Italic"
