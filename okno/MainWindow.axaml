@@ -21,6 +21,7 @@
         <TextBlock Text="22.10.2026"
                    HorizontalAlignment="Center" />
         <Button Content="Kliknij mnie"
+                Click="Button_Click"
                 HorizontalAlignment="Center"
                 Margin="0,10,0,0" />
     </StackPanel>
