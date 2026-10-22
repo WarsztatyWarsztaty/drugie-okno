@@ -20,5 +20,8 @@
                    HorizontalAlignment="Center" />
         <TextBlock Text="22.10.2026"
                    HorizontalAlignment="Center" />
+        <Button Content="Kliknij mnie"
+                HorizontalAlignment="Center"
+                Margin="0,10,0,0" />
     </StackPanel>
 </Window>
