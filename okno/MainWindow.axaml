@@ -9,20 +9,29 @@
         Width="600"
         Height="400"
         Background="#FFF9C4">
-    <StackPanel HorizontalAlignment="Center"
-                VerticalAlignment="Center">
-        <TextBlock Text="Warsztat"
-                   FontSize="36"
-                   HorizontalAlignment="Center" />
-        <TextBlock Text="okno okno"
-                   Foreground="Blue"
-                   FontStyle="Italic"
-                   HorizontalAlignment="Center" />
-        <TextBlock Text="22.10.2026"
-                   HorizontalAlignment="Center" />
-        <Button Content="Kliknij mnie"
-                Click="Button_Click"
-                HorizontalAlignment="Center"
-                Margin="0,10,0,0" />
-    </StackPanel>
+    <Panel>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <TextBlock Text="Warsztat"
+                       FontSize="36"
+                       HorizontalAlignment="Center" />
+            <TextBlock Text="okno okno"
+                       Foreground="Blue"
+                       FontStyle="Italic"
+                       HorizontalAlignment="Center" />
+            <TextBlock Text="22.10.2026"
+                       HorizontalAlignment="Center" />
+            <Button Content="Kliknij mnie"
+                    Click="Button_Click"
+                    HorizontalAlignment="Center"
+                    Margin="0,10,0,0" />
+        </StackPanel>
+
+        <Image Source="/Assets/rabbit.jpg"
+               Width="120"
+               Height="120"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Bottom"
+               Margin="15" />
+    </Panel>
 </Window>
