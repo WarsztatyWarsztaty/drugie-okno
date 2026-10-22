@@ -18,5 +18,7 @@
                    Foreground="Blue"
                    FontStyle="Italic"
                    HorizontalAlignment="Center" />
+        <TextBlock Text="22.10.2026"
+                   HorizontalAlignment="Center" />
     </StackPanel>
 </Window>
