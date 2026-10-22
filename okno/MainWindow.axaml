@@ -14,6 +14,7 @@
                     VerticalAlignment="Center">
             <TextBlock Text="Warsztat"
                        FontSize="36"
+                       FontWeight="Bold"
                        HorizontalAlignment="Center" />
             <TextBlock Text="okno okno"
                        Foreground="Blue"
