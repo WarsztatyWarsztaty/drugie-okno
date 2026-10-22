@@ -16,6 +16,7 @@
                    HorizontalAlignment="Center" />
         <TextBlock Text="okno okno"
                    Foreground="Blue"
+                   FontStyle="Italic"
                    HorizontalAlignment="Center" />
     </StackPanel>
 </Window>
